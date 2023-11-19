@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    MovementController _moveController;
+    private MovementController _moveController;
     void Start()
     {
         _moveController = GetComponent<MovementController>();
